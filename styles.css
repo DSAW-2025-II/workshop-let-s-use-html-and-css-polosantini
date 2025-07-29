@@ -1,5 +1,33 @@
 /*Documentos de estilo en CSS de la página web*/
 
-h1, h2, h3, h4, h5, h6{
-    font-family: YoungSerif;
+/*Declarando las fuentes que se descargaron dentro del proyecto*/
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.woff2') format('woff2-variations');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'YoungSerif';
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Estilización de h1 a h6 de la fuente*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: YoungSerif, serif;
+}
+
+/*Estilización de p, li y th*/
+p, li, th{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Estilización del body*/
+body {
+    background-color: hsl(30, 54%, 90%);
 }
