@@ -5,7 +5,7 @@
 
 [Link](https://dsaw-2025-ii.github.io/workshop-let-s-use-html-and-css-polosantini/) En GitHub Pages de la página desplegada.
 
-##NOTA: Profe, traté de hacer la tabla en el CSS y salió un resultado decente, algo parecido al diseño original que se buscaba en la página... Puede que no salga en GitHub pages (a mi no me sale), pero, por si acaso se ve así: 
+## NOTA: Profe, traté de hacer la tabla en el CSS y salió un resultado decente, algo parecido al diseño original que se buscaba en la página... Puede que no salga en GitHub pages (a mi no me sale), pero, por si acaso se ve así: 
 <img width="895" height="280" alt="image" src="https://github.com/user-attachments/assets/22aade30-a138-4a17-8b5d-40f5d53c368f" />
 
 Igualmente, está el código de esto dentro del CSS, al final, por si acaso.
