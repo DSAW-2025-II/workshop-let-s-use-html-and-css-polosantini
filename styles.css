@@ -11,13 +11,33 @@
 @font-face {
   font-family: 'YoungSerif';
   src: url('../assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
-  font-weight: 400;
+  font-weight: 100 900;
   font-style: normal;
 }
 
-/*Estilización de h1 a h6 de la fuente*/
-h1, h2, h3, h4, h5, h6 {
+/*Estilización desde h1 a h6 de la fuente*/
+h1, h2, h3, h5, h6 {
     font-family: YoungSerif, serif;
+}
+
+/*Estilización de h1*/
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/*Estilización de h2 EL COLOR ES NUTMEG*/
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+/*Estilización de h4*/
+h4 {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
 }
 
 /*Estilización de p, li y th*/
@@ -25,9 +45,38 @@ p, li, th{
     font-family: Outfit, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    color: hsl(24,5%,18%);
 }
 
-/*Estilización del body*/
+/*Estilización del body EL COLOR ES EGGSHELL*/
 body {
     background-color: hsl(30, 54%, 90%);
 }
+
+/*Estilización del tablero*/
+.tablero {
+    width: 85%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    border-radius: 15px; 
+    max-width: 700px;
+}
+
+/*Estilización del tablero de tiempo de preparación*/
+.tiempopreparacion {
+    background-color: hsl(330,100%,98%);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    
+}
+
+/*Estilización del espacio entre los elementos de una lista*/
+.espaciar li {
+    margin-bottom: 15px;
+}
+
