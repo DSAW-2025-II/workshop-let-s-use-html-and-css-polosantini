@@ -9,10 +9,10 @@
 }
 
 @font-face {
-  font-family: 'YoungSerif';
-  src: url('../assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
-  font-weight: 100 900;
-  font-style: normal;
+    font-family: 'YoungSerif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
 }
 
 .imagen {
@@ -88,3 +88,20 @@ body {
     margin-bottom: 15px;
 }
 
+
+/*Estilización de la tabla*/
+.th-izquierda {
+    padding-right: 250px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.th-derecha {
+    color:hsl(14, 45%, 36%);
+    padding-right: 280px;
+}
+
+th {
+    border-bottom: 1px solid #9b9a9b;
+    padding-bottom: 5px;
+}
