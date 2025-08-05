@@ -15,6 +15,14 @@
   font-style: normal;
 }
 
+.imagen {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
 /*Estilización desde h1 a h6 de la fuente*/
 h1, h2, h3, h5, h6 {
     font-family: YoungSerif, serif;
